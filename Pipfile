@@ -4,8 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-colour-science = "*"
+colour-science = {extras = ["plotting"], version = "*"}
 jupyterlab = "*"
+matplotlib = "*"
 
 [dev-packages]
 
