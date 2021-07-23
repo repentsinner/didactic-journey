@@ -1,0 +1,7 @@
+# the colour render() function doesn't seem to want to create a folder
+# as part of it's output, so just leave an empty one here for now
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
